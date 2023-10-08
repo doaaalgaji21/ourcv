@@ -8,3 +8,24 @@ body {
     background-size: cover; 
     background-repeat: no-repeat; 
 }
+.parent{
+    
+    padding: 10px;
+    display: flex;
+    
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 600px;
+    align-items: center;
+   
+}
+.parent div{
+    padding: 10px;
+    margin:  10px 20px;
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    box-shadow: 20px 10px rgba(46, 39, 42, 0.363);
+    
+
+}

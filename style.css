@@ -31,7 +31,9 @@ body {
 }
 .item1{
     background-color: palevioletred;
+    flex-shrink: 1;
 }
 .item2{
     background-color: burlywood;
+    flex-shrink: 1;
 }

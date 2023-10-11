@@ -1,3 +1,8 @@
 .container-fluid{
     background-color: #D14D72;
 }
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}

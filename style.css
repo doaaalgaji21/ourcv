@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,400;1,700&display=swap');
 *{
     padding: 0px;
     margin: 0px;
@@ -7,56 +8,155 @@ body {
     background-image: url('img/backb.png');
     background-size: cover; 
     background-repeat: no-repeat; 
-}
-.parent{
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
     
-    padding: 10px;
     display: flex;
-    
-    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+section .card .image{
+
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    padding: 3px;
+    background: #f17f9b;
+}
+
+section .card .image img{
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.card{
+    position: relative;
+    background: #fff0f5;
+    border-radius: 20px;
+    margin: 20px 0;
+    width: 280px;
+}
+.card::before{
+    content: "";
+    position: absolute;
+height: 40%;
+width: 100%;
+background: #f17f9b;
+border-radius: 20px 20px 0 0;
+}
+
+.card .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+padding: 30px;
+position: relative;
+z-index: 100;
+
+}
+
+.card .media-icons{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .media-icons i{
+    color: #fff;
+    opacity: 0.6;
+margin-top: 10px;
+transition: all 0.3s ease;
+cursor: pointer;
+}
+
+.card .media-icons i:hover{
+    opacity: 1;
+}
+
+.card .name-profession{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    color: #333;
+
+}
+
+.name-profession .name{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.name-profession .profession{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card .button{
+    width: 100%;
+    display: flex;
     justify-content: space-around;
-    height: 600px;
-    align-items: center;
+    margin-top: 20px;
 
 }
-.parent div{
-    padding: 10px;
-    margin:  10px 20px;
-    display: flex;
-    align-items: center;
-    flex-flow: column wrap;
-    box-shadow: 20px 10px rgba(46, 39, 42, 0.363);
-    
 
+.card .button button{
+    background: #f17f9b;
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 20px;
+    font-size: 14px;
+transition: all 0.3s ease;
+cursor: pointer;
 }
-.item1{
-    background-color: palevioletred;
+.button button:hover{
 
-}
-.item2{
-    background-color: burlywood;
-
+    background: #f17f9b;
 }
 @media (min-width: 50px) and (max-width: 639px){
     body{
         background-image: url('img/backs.png');
         background-size: cover; 
-        background-repeat: no-repeat; 
+       
     }
     
 
 }
-@media (min-width: 50px) and (max-width: 499px){
+@media (min-width: 331px) and (max-width: 628px){
     
     
-    .parent{
-        flex-flow: column wrap;
+    body{
+        flex-direction: column;
+        
+    
+
     }
+
     
     
 
 }
-.img1{
-    height: 170px;
-    width:250px;
+@media (min-width: 50px) and (max-width: 330px){
+    
+    
+    body{
+        flex-direction: column;
+        
+    }
+    
+
 }
+
+
+

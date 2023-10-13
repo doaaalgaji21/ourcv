@@ -5,11 +5,13 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url('img/backb.png');
+    background-image: url('img/wallpaper.jpg');
     background-size: cover; 
+    width: 100vw;
+    height: 100vh;
     background-repeat: no-repeat; 
     font-family: 'Poppins', sans-serif;
-    height: 100vh;
+    
     
     display: flex;
     align-items: center;
@@ -25,8 +27,24 @@ section .card .image{
     padding: 3px;
     background: #f17f9b;
 }
+section .card1 .image{
+
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    padding: 3px;
+    background: #D14D72;
+}
 
 section .card .image img{
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+section .card1 .image img{
 
     height: 100%;
     width: 100%;
@@ -42,6 +60,13 @@ section .card .image img{
     margin: 20px 0;
     width: 280px;
 }
+.card1{
+    position: relative;
+    background: #FEF2F4;
+    border-radius: 20px;
+    margin: 20px 0;
+    width: 280px;
+}
 .card::before{
     content: "";
     position: absolute;
@@ -50,8 +75,25 @@ width: 100%;
 background: #f17f9b;
 border-radius: 20px 20px 0 0;
 }
+.card1::before{
+    content: "";
+    position: absolute;
+height: 40%;
+width: 100%;
+background: #D14D72;
+border-radius: 20px 20px 0 0;
+}
 
 .card .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+padding: 30px;
+position: relative;
+z-index: 100;
+
+}
+.card1 .card-content{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,8 +111,23 @@ z-index: 100;
     flex-direction: column;
     align-items: center;
 }
+.card1 .media-icons{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .card .media-icons i{
+    color: #fff;
+    opacity: 0.6;
+margin-top: 10px;
+transition: all 0.3s ease;
+cursor: pointer;
+}
+.card1 .media-icons i{
     color: #fff;
     opacity: 0.6;
 margin-top: 10px;
@@ -81,8 +138,19 @@ cursor: pointer;
 .card .media-icons i:hover{
     opacity: 1;
 }
+.card1 .media-icons i:hover{
+    opacity: 1;
+}
 
 .card .name-profession{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    color: #333;
+
+}
+.card1 .name-profession{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -108,9 +176,27 @@ cursor: pointer;
     margin-top: 20px;
 
 }
+.card1 .button{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
 
 .card .button button{
     background: #f17f9b;
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 20px;
+    font-size: 14px;
+transition: all 0.3s ease;
+cursor: pointer;
+}
+.card1 .button button{
+    background: #D14D72;
     outline: none;
     border: none;
     color: #fff;
@@ -124,20 +210,13 @@ cursor: pointer;
 
     background: #f17f9b;
 }
-@media (min-width: 50px) and (max-width: 639px){
-    body{
-        background-image: url('img/backs.png');
-        background-size: cover; 
-       
-    }
-    
 
-}
-@media (min-width: 331px) and (max-width: 628px){
+@media (min-width: 50px) and (max-width: 628px){
     
     
     body{
         flex-direction: column;
+        
         
     
 
@@ -147,16 +226,7 @@ cursor: pointer;
     
 
 }
-@media (min-width: 50px) and (max-width: 330px){
-    
-    
-    body{
-        flex-direction: column;
-        
-    }
-    
 
-}
 
 
 

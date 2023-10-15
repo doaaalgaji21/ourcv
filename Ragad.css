@@ -117,3 +117,45 @@ section {
 .container-fluid ul li a:hover{
     color: #D14D72;
 }
+.about{
+    padding: 10% 10%;
+    
+}
+.about h2{
+    margin-top: 10px;
+    
+    color:#D14D72 ;
+    font-size: 3em;
+    font-weight: 600;
+}
+.about p {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 50px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.lan{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.lan div{
+
+    margin: 20px;
+    border-style: solid;
+    border-color: #ffabab;
+    padding: 20px;
+    border-radius:12px;
+    border-width: 1px;
+    box-shadow: 5px 5px 10px #888888;
+    transform: scale(1.1); 
+    transition: transform 0.3s;
+    width: 320px;
+    height: 200px;
+}
+.lan div:hover{
+    transform: scale(1);
+}

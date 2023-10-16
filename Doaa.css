@@ -93,6 +93,12 @@ section {
     display: flex;
     justify-content: space-between ;
     align-items: center;
+    position: fixed; /* تثبيت شريط التنقل */
+    top: 0; /* التثبيت في الأعلى */
+    left: 0;
+    right: 0;
+    z-index: 999;
+    
 
 }
 .navbar-brand{
@@ -301,6 +307,9 @@ hr{
     font-size: 2em;
     font-weight: 300;
     
+}
+.content {
+    margin-top: 200px; 
 }
 
 

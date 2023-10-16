@@ -19,7 +19,7 @@ html{
 
 }
 section {
-   
+
 }
 .main {
     width: 100%;
@@ -165,3 +165,144 @@ hr{
     border-color: #fef2f4; 
     border-style: solid;
 }
+.skills h2{
+    color: #D14D72 ;
+    margin-left: 40%;
+    margin-top: 10px;
+    font-size: 3em;
+    font-weight: 600;
+}
+.skil{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
+}
+.s1{
+    background-color: #fcc8d1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 10px solid #fcc8d1;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #c56b9f;
+    transition: transform 0.5s ease;
+    margin: 1%;
+}
+.p1 {
+    color: #fef2fa;
+    margin-top: 5px;
+    font-size: 2.5em;
+    
+}
+.p2{
+    color: #D14D72;
+}
+.circle70 {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background-color: transparent; /* جعل الخلفية شفافة */
+    border: 10px solid #D14D72; /* لون وعرض الإطار */
+    border-radius: 50%; /* دائرة بالكامل */
+    clip-path: polygon(30% 0, 100% 0, 100% 100%, 30% 100%); /* قص 30% من محيط الدائرة */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle85 {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background-color: transparent; /* جعل الخلفية شفافة */
+    border: 10px solid #D14D72; /* لون وعرض الإطار */
+    border-radius: 50%; /* دائرة بالكامل */
+    clip-path: polygon(15% 0, 100% 0, 100% 100%, 15% 100%);/* قص الزاوية اليمنى باستخدام شكل مثلث */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle60 {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background-color: transparent; /* جعل الخلفية شفافة */
+    border: 10px solid #D14D72; /* لون وعرض الإطار */
+    border-radius: 50%; /* دائرة بالكامل */
+    clip-path: polygon(40% 0, 100% 0, 100% 100%, 40% 100%);/* قص الزاوية اليمنى باستخدام شكل مثلث */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle40 {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background-color: transparent; /* جعل الخلفية شفافة */
+    border: 10px solid #D14D72; /* لون وعرض الإطار */
+    border-radius: 50%; /* دائرة بالكامل */
+    clip-path: polygon(60% 0, 100% 0, 100% 100%, 60% 100%);/* قص الزاوية اليمنى باستخدام شكل مثلث */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle50 {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background-color: transparent; /* جعل الخلفية شفافة */
+    border: 10px solid #D14D72; /* لون وعرض الإطار */
+    border-radius: 50%; /* دائرة بالكامل */
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);/* قص الزاوية اليمنى باستخدام شكل مثلث */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s1:hover {
+    transform: scale(1.05);
+    z-index: 2;
+}
+.skills{
+    padding: 0 20%;
+}
+.p12{
+    color: #fef2fa;
+    margin-top: 5px;
+    font-size: 1.5em;
+    
+}
+.EDUCATION h2{
+    color: #D14D72 ;
+    margin-left: 40%;
+    margin-top: 10px;
+    font-size: 3em;
+    font-weight: 600;
+
+}
+.ed{
+    margin: 2% 10%;
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-style: solid;
+    border-color: #ffabab;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #fef2f4;
+
+}
+.ed1{
+    display: flex;
+    flex-direction: column;
+    color:#fef2f4 ;
+    font-size: 2em;
+    font-weight: 300;
+    
+}
+
+
+
+

@@ -340,7 +340,7 @@ footer{
 
 }
 .heat{
-    font-size: 10em;
+    font-size: 6em;
 }
 @media (min-width: 377px) and (max-width: 599px)
 {   .content {

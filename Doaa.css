@@ -336,10 +336,22 @@ footer{
 .heat{
     font-size: 6em;
 }
-@media (min-width: 377px) and (max-width: 599px)
+@media (min-width: 377px) and (max-width: 767px)
 {   .content {
     margin-top: 50px; 
 }
+.lan{
+    
+    flex-direction: column;
+    
+    
+}
+.lan div{
+
+    width: 80%;
+    
+}
+
     .main {
     
         padding: 8% 8%;
@@ -385,6 +397,17 @@ footer{
 
 }
 @media (min-width: 300px) and (max-width: 378px){
+    .lan{
+    
+        flex-direction: column;
+        
+        
+    }
+    .lan div{
+    
+        width: 80%;
+        
+    }
     .content {
         margin-top: 20px; 
     }

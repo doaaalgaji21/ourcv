@@ -303,6 +303,7 @@ hr{
     color:#fef2f4 ;
     font-size: 2em;
     font-weight: 300;
+    align-items: center;
    
     
 }
@@ -342,6 +343,7 @@ footer{
 .heat{
     font-size: 6em;
 }
+
 @media (min-width: 377px) and (max-width: 767px)
 {   .content {
     margin-top: 50px; 

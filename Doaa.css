@@ -295,7 +295,7 @@ hr{
     border-color: #ffabab;
     border-radius: 20px;
     box-shadow: 5px 5px 10px #fef2f4;
-
+ align-items: center;
 }
 .ed1{
     display: flex;
@@ -303,6 +303,7 @@ hr{
     color:#fef2f4 ;
     font-size: 2em;
     font-weight: 300;
+   
     
 }
 .content {

@@ -376,6 +376,10 @@ footer{
     }
     .skills{
         padding: 0 5%;
+        
+    }
+    .s1{
+        width: 160px;
     }
     .circle70 {
         width: 100px;
@@ -417,6 +421,7 @@ footer{
         
         
     }
+
     .lan div{
     
         width: 80%;

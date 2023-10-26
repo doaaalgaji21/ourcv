@@ -18,34 +18,36 @@ html{
 
 .main {
     width: 100%;
-    min-height: 500px;
+    height: 100vh ;
     display: flex;
     align-items: center;
     background: url(img/wallpaper.jpg) no-repeat ;
+    background-repeat:no-repeat ;
     
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     padding: 10% 10%;
+    background-color: antiquewhite;
 }
 .main h2 {
     color: #fff;
-    font-size: 1.4em;
-    font-weight: 500;
+    font-size: 2vh;
+    font-weight: 500px;
 }
 .main h2 span {
     display: inline-block;
     margin-top: 10px;
     
     color:#D14D72 ;
-    font-size: 3em;
-    font-weight: 600;
+    font-size: 5vh;
+    font-weight: 600px;
 }
 
 
 .main h3 {
     color: #fff;
-    font-size: 2em;
+    font-size: 3vh;
     font-weight: 700;
     letter-spacing: 1px;
     margin-top: 10px;
@@ -55,7 +57,7 @@ html{
     color: #fff;
     background-color: #D14D72;
     text-decoration: none;
-    font-size: 1.1em;
+    font-size: 2vh;
     font-weight: 600;
     display: inline-block;
     padding: 0.9375em 2.1875em;
@@ -138,6 +140,7 @@ html{
     margin-bottom: 30px;
 }
 .lan{
+    text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -193,16 +196,17 @@ hr{
     transition: transform 0.5s ease;
     margin: 1%;
     text-align: center;
-    width: 150px;
+    width: 200px;
 }
 .p1 {
     color: #fef2fa;
     margin-top: 5px;
-    font-size: 2.5em;
+    font-size: 3em;
     
 }
 .p2{
     color: #D14D72;
+   
 }
 .circle70 {
     width: 100px;
@@ -274,7 +278,7 @@ hr{
 .p12{
     color: #fef2fa;
     margin-top: 5px;
-    font-size: 1.5em;
+    font-size: 2.5em;
     
 }
 .EDUCATION h2{

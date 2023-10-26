@@ -290,7 +290,7 @@ hr{
     padding: 2%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     border-style: solid;
     border-color: #ffabab;
     border-radius: 20px;
@@ -303,6 +303,7 @@ hr{
     color:#fef2f4 ;
     font-size: 2em;
     font-weight: 300;
+    align-items: center;
     align-items: center;
    
     
@@ -465,6 +466,42 @@ footer{
         width: 100px;
     }
 }
+
+.select-menu{
+   
+    padding: 2% 10%;
+    
+}
+
+
+.sbtn-text{
+   
+    height:60px;
+    background: #FCC9D2;
+    padding: 10px;
+    
+  
+    border-radius: 8px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between; 
+    box-shadow: 0 0 8px #D14D72;
+   
+}
+.accordion-body{
+
+    margin: 30px;
+    
+}
+.option-text {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 50px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
 
 
 
